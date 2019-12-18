@@ -3,33 +3,6 @@ html, body {
 	margin: 0;
 }
 
-header {
-    background-color: #efeee7;
-    font-family: Georgia,"Times New Roman",Times,serif;
-    color: #333333;
-    margin: 0;
-    padding: 0;
-    font-weight: bolder;
-
-}
-
-#logo {
-	float: left;
-	padding: initial;
-	margin-top: auto;
-	width: 200px;
-    height: 48px;
-	font-family: Georgia, Times, "Times New Roman", serif;
-	font-size: 30px;
-    font-weight: 400;
-	line-height: 30px;
-	color: #fff;
-	text-align: center;
-	text-decoration: none;
-	background: gray;
-}
-
-
 body {
    
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -75,7 +48,7 @@ padding: 50px;
 
 .wrapper {
 	min-height: 100%;
-  
+	min-width: 100%;
 	
 	margin-bottom: -50px;
 }
@@ -90,6 +63,8 @@ footer {
 	background: #666;
 	border-top: 8px solid lightskyblue;
 	height: 50px;
+	width: 100%;
+	
 }
 
 .push {
