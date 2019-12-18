@@ -72,16 +72,13 @@ p{
 	
 }
 
-.img1 {
-	float: left;
+.card{
+background-color:whitesmoke ;
+padding: 50px;
 
 }
 	
-.clearfix {
-	overflow: auto;
-	border: 25px black;
-	background-color: whitesmoke;
-}
+
 
 .box {
 	border: 25px black;
