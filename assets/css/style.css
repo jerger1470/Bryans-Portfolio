@@ -6,8 +6,8 @@ html, body {
 body {
    
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	background-image: url("../../assets/images/greek-vase.png");
-	background-color: #efeee7;
+	background-image: url("../../assets/images/wallpaper.jpg");
+	background-color: #042c04;
     
     
    
@@ -27,7 +27,7 @@ body {
   }
 
 .card{
-background-color:whitesmoke ;
+background-color:rgb(12, 44, 26) ;
 padding: 50px;
 
 }
@@ -45,6 +45,19 @@ padding: 50px;
 	  
 	  
 }
+
+h2 {
+	color: whitesmoke;
+	text-align: left;
+}
+
+textarea {
+    display: block;
+    margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
 
 .wrapper {
 	min-height: 100%;
