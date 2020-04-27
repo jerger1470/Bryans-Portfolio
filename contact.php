@@ -28,7 +28,7 @@
             </li>
       
             <li class="nav-item active">
-              <a class="nav-link" href="contact.html">Contact</a>
+              <a class="nav-link" href="contact.php">Contact</a>
                       
             </li>
             
