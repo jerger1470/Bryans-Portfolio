@@ -18,10 +18,18 @@ if (isset($_POST['submit'])){
     $ExampleCaptcha->UserInputID = "CaptchaCode";
     $isHuman = $ExampleCaptcha->Validate();
 
+    //Check for empty fields
+
+    if (empty($name) || (empty($subject) || (empty($mailFrom) || (empty($message)) {
+        header("Location: contact.php?field=empty");
+        exit();
+    } else {
+
     if (!$isHuman) { 
     // Captcha validation failed, redirect back to form page
     header("Location: contact.php?captchaValid=false");
-    exit;
+    exit();
+    }
 }
 
     mail($mailTo, $subject, $txt, $headers);

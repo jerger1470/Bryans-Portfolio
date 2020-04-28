@@ -85,6 +85,14 @@ padding-left: 200px;
 
 }
 
+.error{
+	color: red;
+}
+
+.success{
+	color: green;
+}
+
 h2 {
 	color: whitesmoke;
 	text-align: left;
