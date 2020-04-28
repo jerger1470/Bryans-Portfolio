@@ -86,14 +86,11 @@
 <?php
     $fullUrl = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 
-    if (strpos($fullUrl, "field=empty")== true) {
-        echo  "<p class='error'>You did not fill in all information!</p>";
-        exit();
+    if (strpos($fullUrl, "captchaValid=false")== true) {
+      echo  "<p class='error'>You entered the wrong captcha! Try Again!</p>";
+      exit();
     }
-    elseif (strpos($fullUrl, "captchaValid=false")== true) {
-        echo  "<p class='error'>You entered the wrong captcha! Try Again!</p>";
-        exit();
-    }
+          
     elseif (strpos($fullUrl, "mailsent")== true) {
         echo  "<p class='success'>Message sent!</p>";
         exit();
