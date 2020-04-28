@@ -53,32 +53,13 @@
     action="contactform.php"
     method="post"
 >
-  <div class="userName">
-  <label>
-    Your Full name:
-    <input type="text" id="userName" name="name">
-  </label>
-  </div>
-
-  <div class="userEmail">
-  <label>
-    Your email:
-    <input type="text" id="userEmail" name="mail">
-  </label>
-  </div>
-
-  <div class="userMessage"> 
-  <label>
-    Your message:
-    <textarea name="message" id="userMessage" ></textarea>
-  </label>
-  </div>
-
-  <div id="submitButton">
-  <button class="btn btn-primary" name="submit" type="submit">Send</button>
-  </div>
-
-   
+  
+    <input type="text" name="name" placeholder= "Full name">
+    <input type="text" name="mail" placeholder= "Your E-mail">
+    <input type="text" name="subject" placeholder= "Subject">
+    <textarea name="message" placeholder= "Message"></textarea>
+    <button class="btn btn-primary" name="submit" type="submit">Send</button>
+    
 </form>
               
             
