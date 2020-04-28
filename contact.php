@@ -59,13 +59,13 @@
     method="post"
 >
   
-    <input type="text" name="name" placeholder= "Full name">
+    <input type="text" name="name" id="name" placeholder= "Full name">
 </br>
-    <input type="text" name="mail" placeholder= "Your E-mail">
+    <input type="text" name="mail" id="userEmail" placeholder= "Your E-mail">
 </br>
-    <input type="text" name="subject" placeholder= "Subject">
+    <input type="text" name="subject" id="subject" placeholder= "Subject">
 </br>
-    <textarea name="message" placeholder= "Message"></textarea>
+    <textarea name="message" id="userMessage" placeholder= "Message"></textarea>
 </br>
     <label for="CaptchaCode">Retype the characters from the picture:
     </label>

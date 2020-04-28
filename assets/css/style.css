@@ -52,6 +52,20 @@ padding: 50px;
 	font-family: Tahoma, sans-serif;
 }
 
+#subject{
+	
+	border: 3px solid #cccccc;
+	padding: 5px;
+	font-family: Tahoma, sans-serif;
+}
+
+#name{
+	
+	border: 3px solid #cccccc;
+	padding: 5px;
+	font-family: Tahoma, sans-serif;
+}
+
 #userMessage{
 	width: 450px;
 	height: 120px;
