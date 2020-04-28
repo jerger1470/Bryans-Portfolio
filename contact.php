@@ -61,7 +61,7 @@
   
     <input type="text" name="name" id="name" placeholder= "Full name">
 </br>
-    <input type="text" name="mail" id="userEmail" placeholder= "Your E-mail">
+    <input type="text" name="mail" id="email" placeholder= "E-mail">
 </br>
     <input type="text" name="subject" id="subject" placeholder= "Subject">
 </br>
@@ -76,7 +76,8 @@
     echo $ExampleCaptcha->Html(); 
     ?>
 
-<input name="CaptchaCode" id="CaptchaCode" type="text" />
+    <input name="CaptchaCode" id="CaptchaCode" type="text" />
+</br>
 
     <button class="btn btn-primary" name="submit" type="submit">Send</button>
     
