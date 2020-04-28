@@ -55,9 +55,13 @@
 >
   
     <input type="text" name="name" placeholder= "Full name">
+</br>
     <input type="text" name="mail" placeholder= "Your E-mail">
+</br>
     <input type="text" name="subject" placeholder= "Subject">
+</br>
     <textarea name="message" placeholder= "Message"></textarea>
+</br>
     <button class="btn btn-primary" name="submit" type="submit">Send</button>
     
 </form>
