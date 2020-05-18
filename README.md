@@ -14,7 +14,7 @@ Bryan's Portfolio is self made portfolio detailing my accomplishments in my codi
 
 This is a self hosted website with no need to run anything locally to be able to view.
 
-Website: http://beyanmjerger.net
+Website: http://bryanmjerger.net
 
 ## Contributing
 
